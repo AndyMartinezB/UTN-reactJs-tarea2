@@ -1,0 +1,12 @@
+/* colorear el mensaje en verde si es positivo */
+/* usar classList.add() y cassList.remove()  */
+
+/* style.css */
+.borde-rojo {
+  border: 2px solid red;
+  background-color: #ffcccc;
+}
+.borde-verde {
+  border: 2px solid green;
+  background-color: #ccffcc;
+}
