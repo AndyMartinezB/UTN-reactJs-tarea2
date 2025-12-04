@@ -3,22 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tarea 2</title>
+    <title>UTN - Curso de React JS</title>
     <link rel="stylesheet" href="styles/estilo-tarea-2.css" />
   </head>
 
   <body>
-    <h1>Registro del evento</h1>
-    <form id="form_suscripcion">
-      <h3>Registro:</h3>
-      <p>Completa tus datos para registrarte en el evento.</p>
-      <label for="nombre">Nombre:</label>
-      <input id="nombre_usuario" name="nombre" type="text" />
-      <label for="edad">Edad:</label>
-      <input id="edad_usuario" type="number" name="edad" />
-      <button>Enviar</button>
-    </form>
-    <p id="respuesta"></p>
+    <header>
+      <h1>Tarea Nº2: Formulario interactivo con validación básica</h1>
+    </header>
+
+    <main>
+      <form id="form_evento">
+        <h3>Registro:</h3>
+        <p>Completa tus datos para registrarte en el evento.</p>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre_usuario" name="nombre" type="text" />
+        <label for="edad">Edad:</label>
+        <input id="edad_usuario" type="number" name="edad" />
+        <button>Enviar</button>
+      </form>
+      <p id="respuesta"></p>
+    </main>
+
     <script src="form/javascript-tarea-2.js"></script>
   </body>
 </html>

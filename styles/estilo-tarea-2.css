@@ -1,7 +1,6 @@
 /* colorear el mensaje en verde si es positivo */
 /* usar classList.add() y cassList.remove()  */
 
-/* style.css */
 .borde-rojo {
   border: 2px solid red;
   background-color: #ffcccc;
@@ -9,4 +8,93 @@
 .borde-verde {
   border: 2px solid green;
   background-color: #ccffcc;
+}
+
+:root {
+  /* Por consigna */
+  --color-principal: #1e293b;
+  --color-secundario: #2563eb;
+  --fuente-base: "Helvetica", sans-serif;
+
+  /* Otras */
+  --color-fondo: #f1f5f9; /* Beige para Fondo Body */
+  --color-texto-claro: #f1f5f9; /* Blanco hueso para texto Header y Links) */
+}
+
+body {
+  font-family: var(--fuente-base);
+  margin: 0;
+  background-color: var(--color-fondo);
+}
+
+header {
+  background-color: var(--color-principal);
+  color: var(--color-texto-claro);
+  padding: 20px;
+  /* text-align: center; */
+}
+
+#form_evento {
+  background-color: white;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+#form_evento h3 {
+  color: var(--color-principal);
+  margin-top: 0;
+}
+
+#form_evento label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--color-secundario);
+}
+
+/* Los campos de texto y el desplegable */
+#form_evento input,
+#form_evento select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: var(--fuente-base);
+}
+
+#form_evento input:focus,
+#form_evento select:focus {
+  outline: none;
+  border-color: var(--color-secundario);
+  background-color: #f1f5f9;
+}
+
+#form_evento button {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--color-principal);
+  color: var(--color-texto-claro);
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#form_evento button:hover {
+  background-color: var(--color-secundario);
+}
+
+#respuesta {
+  display: block;
+  width: fit-content;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  font-weight: bold;
 }

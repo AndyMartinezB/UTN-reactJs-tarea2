@@ -1,6 +1,6 @@
 // usar document.querySelector.
 
-const form = document.querySelector("#form_suscripcion");
+const form = document.querySelector("#form_evento");
 const nombreInput = document.querySelector("#nombre_usuario");
 const edadInput = document.querySelector("#edad_usuario");
 const parrafoRespuesta = document.querySelector("#respuesta");
@@ -11,7 +11,7 @@ form.addEventListener("submit", function (event) {
   const numeroUsuario = edadInput.value;
 
   if (numeroUsuario >= 18) {
-    parrafoRespuesta.textContent = `✅ Bienvenido, ${nombreUsuario}, tienes acceso al evento.`;
+    parrafoRespuesta.textContent = `✅ Bienvenido ${nombreUsuario}, tienes acceso al evento.`;
     parrafoRespuesta.classList.add("borde-verde");
     parrafoRespuesta.classList.remove("borde-rojo");
   } else {
