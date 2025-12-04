@@ -11,7 +11,7 @@ form.addEventListener("submit", function (event) {
   const numeroUsuario = edadInput.value;
 
   if (numeroUsuario >= 18) {
-    parrafoRespuesta.textContent = `✅ Bienvenido ${nombreUsuario}, tienes acceso al evento.`;
+    parrafoRespuesta.textContent = `✅ Bienvenido/a ${nombreUsuario}, tienes acceso al evento.`;
     parrafoRespuesta.classList.add("borde-verde");
     parrafoRespuesta.classList.remove("borde-rojo");
   } else {
