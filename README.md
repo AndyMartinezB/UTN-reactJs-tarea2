@@ -23,10 +23,10 @@ Para ver la página:
 ## Capturas de Pantalla
 
 - Caso positivo:
-  ![Vista General]()
+  ![Vista General](https://raw.githubusercontent.com/AndyMartinezB/UTN-reactJs-tarea2/main/assets/caso-positivo.png)
 
 - Caso negativo:
-  ![Formulario]()
+  ![Formulario](https://raw.githubusercontent.com/AndyMartinezB/UTN-reactJs-tarea2/main/assets/caso-negativo.png)
 
 ## Créditos
 
